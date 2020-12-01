@@ -1,4 +1,4 @@
-from offline.init_data import Init
+from src.offline.init_data import Init
 
 
 def main():
