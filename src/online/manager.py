@@ -1,6 +1,6 @@
 from tkinter import Tk, END, Entry, Button, Listbox
-from online.auto_complete import get_best_k_completions
-from online.load_data import load_data
+from src.online.auto_complete import get_best_k_completions
+from src.online.load_data import load_data
 
 
 def clear():
