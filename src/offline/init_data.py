@@ -20,7 +20,7 @@ class Init:
                 offset += 1
 
     def init_data(self):
-        txt_files = glob.glob("../data/python-3.8.4-docs-text/python-3.8.4-docs-text/*.txt")
+        txt_files = glob.glob("../../data/python-3.8.4-docs-text/python-3.8.4-docs-text/*.txt")
 
         for file in txt_files:
             self.data_from_file(file)
