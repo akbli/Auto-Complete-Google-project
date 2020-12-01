@@ -1,6 +1,6 @@
 from typing import List
-from online.load_data import DataFiles
-from utils.auxiliary_funcs import init_complete_list, get_score_for_add_delete, get_options_to_change, \
+from src.online.load_data import DataFiles
+from src.utils.auxiliary_funcs import init_complete_list, get_score_for_add_delete, get_options_to_change, \
     get_score_for_replace
 
 init = DataFiles()
